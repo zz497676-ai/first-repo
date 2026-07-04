@@ -1,0 +1,40 @@
+{
+  "version": "example-v1",
+  "patch": "示例数据（并非官方数据，未跟随任何具体版本更新）",
+  "disclaimer": "本数据集为演示用的近似数据，强度评分/克制关系均为粗略示例，并非腾讯官方平衡数据。请根据实际版本自行编辑 heroes.json / counters.json。",
+  "heroes": [
+    { "id": "chengyaojin", "name": "程咬金", "nameEn": "Cheng Yaojin", "roles": ["tank"], "damageType": "physical", "tier": "A", "strengthScore": 74, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": true }, "difficulty": 1, "iconPlaceholder": "程" },
+    { "id": "zhangfei", "name": "张飞", "nameEn": "Zhang Fei", "roles": ["tank"], "damageType": "magic", "tier": "A", "strengthScore": 72, "tags": { "engage": true, "cc": true, "peel": true, "poke": false, "sustain": false }, "difficulty": 1, "iconPlaceholder": "张" },
+    { "id": "lianpo", "name": "廉颇", "nameEn": "Lian Po", "roles": ["tank"], "damageType": "physical", "tier": "S", "strengthScore": 83, "tags": { "engage": true, "cc": true, "peel": true, "poke": false, "sustain": false }, "difficulty": 1, "iconPlaceholder": "廉" },
+    { "id": "baiqi", "name": "白起", "nameEn": "Bai Qi", "roles": ["tank"], "damageType": "magic", "tier": "A", "strengthScore": 76, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": false }, "difficulty": 2, "iconPlaceholder": "白" },
+
+    { "id": "arthur", "name": "亚瑟", "nameEn": "Arthur", "roles": ["warrior"], "damageType": "physical", "tier": "A", "strengthScore": 75, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": true }, "difficulty": 1, "iconPlaceholder": "亚" },
+    { "id": "guanyu", "name": "关羽", "nameEn": "Guan Yu", "roles": ["warrior"], "damageType": "physical", "tier": "A", "strengthScore": 77, "tags": { "engage": true, "cc": false, "peel": false, "poke": false, "sustain": true }, "difficulty": 1, "iconPlaceholder": "关" },
+    { "id": "huamulan", "name": "花木兰", "nameEn": "Hua Mulan", "roles": ["warrior", "assassin"], "damageType": "physical", "tier": "S", "strengthScore": 86, "tags": { "engage": true, "cc": false, "peel": false, "poke": false, "sustain": false }, "difficulty": 3, "iconPlaceholder": "花" },
+    { "id": "lubu", "name": "吕布", "nameEn": "Lu Bu", "roles": ["warrior"], "damageType": "physical", "tier": "S", "strengthScore": 84, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": true }, "difficulty": 2, "iconPlaceholder": "吕" },
+    { "id": "caocao", "name": "曹操", "nameEn": "Cao Cao", "roles": ["warrior"], "damageType": "physical", "tier": "A", "strengthScore": 78, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": true }, "difficulty": 2, "iconPlaceholder": "曹" },
+
+    { "id": "angela", "name": "安琪拉", "nameEn": "Angela", "roles": ["mage"], "damageType": "magic", "tier": "S", "strengthScore": 82, "tags": { "engage": false, "cc": true, "peel": false, "poke": true, "sustain": false }, "difficulty": 1, "iconPlaceholder": "安" },
+    { "id": "daji", "name": "妲己", "nameEn": "Daji", "roles": ["mage"], "damageType": "magic", "tier": "A", "strengthScore": 79, "tags": { "engage": false, "cc": true, "peel": false, "poke": true, "sustain": false }, "difficulty": 1, "iconPlaceholder": "妲" },
+    { "id": "zhugeliang", "name": "诸葛亮", "nameEn": "Zhuge Liang", "roles": ["mage"], "damageType": "magic", "tier": "A", "strengthScore": 76, "tags": { "engage": false, "cc": false, "peel": false, "poke": true, "sustain": false }, "difficulty": 2, "iconPlaceholder": "诸" },
+    { "id": "wangzhaojun", "name": "王昭君", "nameEn": "Wang Zhaojun", "roles": ["mage"], "damageType": "magic", "tier": "S", "strengthScore": 85, "tags": { "engage": false, "cc": true, "peel": true, "poke": true, "sustain": false }, "difficulty": 2, "iconPlaceholder": "王" },
+    { "id": "shangguanwaner", "name": "上官婉儿", "nameEn": "Shangguan Waner", "roles": ["mage"], "damageType": "magic", "tier": "A", "strengthScore": 74, "tags": { "engage": false, "cc": false, "peel": false, "poke": true, "sustain": false }, "difficulty": 2, "iconPlaceholder": "上" },
+
+    { "id": "houyi", "name": "后羿", "nameEn": "Hou Yi", "roles": ["marksman"], "damageType": "physical", "tier": "A", "strengthScore": 77, "tags": { "engage": false, "cc": false, "peel": false, "poke": true, "sustain": false }, "difficulty": 1, "iconPlaceholder": "后" },
+    { "id": "sunshangxiang", "name": "孙尚香", "nameEn": "Sun Shangxiang", "roles": ["marksman"], "damageType": "physical", "tier": "A", "strengthScore": 78, "tags": { "engage": false, "cc": false, "peel": false, "poke": true, "sustain": false }, "difficulty": 1, "iconPlaceholder": "孙" },
+    { "id": "luban7", "name": "鲁班七号", "nameEn": "Luban No.7", "roles": ["marksman"], "damageType": "physical", "tier": "B", "strengthScore": 62, "tags": { "engage": false, "cc": false, "peel": false, "poke": true, "sustain": false }, "difficulty": 1, "iconPlaceholder": "鲁" },
+    { "id": "huangzhong", "name": "黄忠", "nameEn": "Huang Zhong", "roles": ["marksman"], "damageType": "physical", "tier": "A", "strengthScore": 75, "tags": { "engage": false, "cc": true, "peel": false, "poke": true, "sustain": false }, "difficulty": 2, "iconPlaceholder": "黄" },
+    { "id": "direnjie", "name": "狄仁杰", "nameEn": "Di Renjie", "roles": ["marksman"], "damageType": "physical", "tier": "A", "strengthScore": 76, "tags": { "engage": false, "cc": true, "peel": false, "poke": false, "sustain": false }, "difficulty": 2, "iconPlaceholder": "狄" },
+
+    { "id": "libai", "name": "李白", "nameEn": "Li Bai", "roles": ["assassin"], "damageType": "physical", "tier": "S", "strengthScore": 87, "tags": { "engage": true, "cc": false, "peel": false, "poke": false, "sustain": false }, "difficulty": 3, "iconPlaceholder": "李" },
+    { "id": "hanxin", "name": "韩信", "nameEn": "Han Xin", "roles": ["assassin"], "damageType": "physical", "tier": "S+", "strengthScore": 91, "tags": { "engage": true, "cc": false, "peel": false, "poke": false, "sustain": false }, "difficulty": 3, "iconPlaceholder": "韩" },
+    { "id": "luna", "name": "露娜", "nameEn": "Luna", "roles": ["assassin"], "damageType": "physical", "tier": "A", "strengthScore": 78, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": false }, "difficulty": 2, "iconPlaceholder": "露" },
+    { "id": "ake", "name": "阿轲", "nameEn": "A Ke", "roles": ["assassin"], "damageType": "physical", "tier": "A", "strengthScore": 75, "tags": { "engage": true, "cc": false, "peel": false, "poke": false, "sustain": true }, "difficulty": 1, "iconPlaceholder": "阿" },
+    { "id": "lanlingwang", "name": "兰陵王", "nameEn": "Lan Ling Wang", "roles": ["assassin"], "damageType": "physical", "tier": "A", "strengthScore": 77, "tags": { "engage": true, "cc": true, "peel": false, "poke": false, "sustain": false }, "difficulty": 2, "iconPlaceholder": "兰" },
+
+    { "id": "sunbin", "name": "孙膑", "nameEn": "Sun Bin", "roles": ["support"], "damageType": "none", "tier": "A", "strengthScore": 73, "tags": { "engage": false, "cc": false, "peel": true, "poke": false, "sustain": true }, "difficulty": 1, "iconPlaceholder": "孙" },
+    { "id": "daqiao", "name": "大乔", "nameEn": "Da Qiao", "roles": ["support"], "damageType": "magic", "tier": "A", "strengthScore": 74, "tags": { "engage": true, "cc": true, "peel": true, "poke": false, "sustain": false }, "difficulty": 2, "iconPlaceholder": "大" },
+    { "id": "caiwenji", "name": "蔡文姬", "nameEn": "Cai Wenji", "roles": ["support"], "damageType": "none", "tier": "S", "strengthScore": 81, "tags": { "engage": false, "cc": false, "peel": true, "poke": false, "sustain": true }, "difficulty": 1, "iconPlaceholder": "蔡" },
+    { "id": "mingshiyin", "name": "明世隐", "nameEn": "Ming Shiyin", "roles": ["support"], "damageType": "none", "tier": "A", "strengthScore": 72, "tags": { "engage": false, "cc": true, "peel": true, "poke": false, "sustain": false }, "difficulty": 2, "iconPlaceholder": "明" }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": "example-v1",
+  "disclaimer": "稀疏示例数据：只覆盖了少量典型克制关系，未列出的英雄对默认视为中立(0)，并非详尽穷举，仅供参考。",
+  "entries": [
+    { "hero": "hanxin", "counters": "shangguanwaner", "strength": 3, "note": "突进秒杀脆皮法师，打断起手" },
+    { "hero": "hanxin", "counters": "houyi", "strength": 2, "note": "位移强行拉近距离，风筝无效" },
+    { "hero": "hanxin", "counters": "caiwenji", "strength": 2, "note": "爆发速度快于治疗量" },
+    { "hero": "hanxin", "counters": "luban7", "strength": 3, "note": "极强机动性完全无视走位依赖的射手" },
+    { "hero": "hanxin", "counters": "daji", "strength": 2, "note": "突进秒杀低生存法师" },
+    { "hero": "houyi", "counters": "hanxin", "strength": -1, "note": "缺乏控制和位移，难以风筝高机动刺客" },
+
+    { "hero": "libai", "counters": "daji", "strength": 3, "note": "护盾/位移生效前打出爆发" },
+    { "hero": "libai", "counters": "luban7", "strength": 2, "note": "多段突进压制走位依赖的射手" },
+    { "hero": "libai", "counters": "sunbin", "strength": 2, "note": "先手秒杀脆皮辅助" },
+    { "hero": "libai", "counters": "houyi", "strength": 1, "note": "突进爆发克制低机动射手" },
+    { "hero": "libai", "counters": "zhugeliang", "strength": 1, "note": "多段突进打断法师风筝" },
+
+    { "hero": "luna", "counters": "zhugeliang", "strength": 2, "note": "沉默锁定后打出爆发" },
+    { "hero": "luna", "counters": "arthur", "strength": 1, "note": "沉默打断护盾/先手连招" },
+    { "hero": "luna", "counters": "daji", "strength": 1, "note": "沉默打断法师爆发前摇" },
+
+    { "hero": "ake", "counters": "caiwenji", "strength": 3, "note": "持续处决输出压制治疗量" },
+    { "hero": "ake", "counters": "huangzhong", "strength": 2, "note": "持续消耗压制缺乏位移的射手" },
+    { "hero": "ake", "counters": "shangguanwaner", "strength": 1, "note": "处决伤害快速击杀脆皮法师" },
+    { "hero": "ake", "counters": "luban7", "strength": 2, "note": "持续贴身压制缺乏解控的射手" },
+
+    { "hero": "lanlingwang", "counters": "angela", "strength": 2, "note": "恐惧控制锁死脆皮法师" },
+    { "hero": "lanlingwang", "counters": "zhugeliang", "strength": 2, "note": "恐惧锁定压制消耗型法师" },
+    { "hero": "lanlingwang", "counters": "houyi", "strength": 1, "note": "先手恐惧限制风筝空间" },
+    { "hero": "lanlingwang", "counters": "daji", "strength": 1, "note": "先手恐惧限制法师输出空间" },
+
+    { "hero": "direnjie", "counters": "arthur", "strength": 1, "note": "隐身爆发克制低机动战士" },
+    { "hero": "direnjie", "counters": "zhugeliang", "strength": 1, "note": "隐身突进秒杀脆皮法师" },
+    { "hero": "direnjie", "counters": "caiwenji", "strength": 2, "note": "隐身爆发抢在治疗之前击杀" },
+    { "hero": "direnjie", "counters": "daji", "strength": 1, "note": "隐身突进秒杀脆皮法师" },
+
+    { "hero": "huamulan", "counters": "baiqi", "strength": 2, "note": "高机动性躲避依赖命中的技能" },
+    { "hero": "huamulan", "counters": "zhangfei", "strength": 1, "note": "位移躲避范围控制技能" },
+    { "hero": "huamulan", "counters": "shangguanwaner", "strength": 2, "note": "机动爆发压制脆皮消耗法师" },
+    { "hero": "huamulan", "counters": "houyi", "strength": 1, "note": "机动性突破风筝射程" },
+
+    { "hero": "lubu", "counters": "houyi", "strength": 2, "note": "持续消耗压制缺乏保护的风筝射手" },
+    { "hero": "lubu", "counters": "sunshangxiang", "strength": 1, "note": "坦度高，扛住射手爆发后反打" },
+    { "hero": "lubu", "counters": "zhugeliang", "strength": 1, "note": "持续追击压制法师风筝空间" },
+    { "hero": "lubu", "counters": "shangguanwaner", "strength": 1, "note": "持续追击压制脆皮法师" },
+
+    { "hero": "arthur", "counters": "luban7", "strength": 2, "note": "先手沉默/击飞压制无位移射手" },
+    { "hero": "arthur", "counters": "zhugeliang", "strength": 1, "note": "沉默先手压制消耗法师" },
+    { "hero": "arthur", "counters": "houyi", "strength": 1, "note": "先手击飞打断射手输出" },
+
+    { "hero": "caocao", "counters": "hanxin", "strength": 1, "note": "位移打断刺客连招节奏" },
+    { "hero": "caocao", "counters": "shangguanwaner", "strength": 1, "note": "位移突进压制脆皮法师" },
+
+    { "hero": "guanyu", "counters": "daji", "strength": 2, "note": "先手突进抢在护盾生效前击杀" },
+    { "hero": "guanyu", "counters": "luban7", "strength": 1, "note": "先手爆发压制无位移射手" },
+    { "hero": "guanyu", "counters": "houyi", "strength": 1, "note": "先手压制无位移射手" },
+
+    { "hero": "zhangfei", "counters": "houyi", "strength": 1, "note": "范围控制方便队友集火风筝射手" },
+    { "hero": "zhangfei", "counters": "luban7", "strength": 2, "note": "范围先手压制无位移射手" },
+    { "hero": "zhangfei", "counters": "hanxin", "strength": 1, "note": "范围击飞打断刺客突进节奏" },
+
+    { "hero": "lianpo", "counters": "huamulan", "strength": 1, "note": "持续控制克制低容错的突进刺客" },
+    { "hero": "lianpo", "counters": "hanxin", "strength": 1, "note": "持续拉扯控制高机动刺客" },
+
+    { "hero": "baiqi", "counters": "hanxin", "strength": 2, "note": "连续控制锁死高机动刺客" },
+    { "hero": "baiqi", "counters": "lubu", "strength": 1, "note": "远程先手打断吕布突进节奏" },
+    { "hero": "baiqi", "counters": "shangguanwaner", "strength": 1, "note": "远程先手压制脆皮法师" },
+
+    { "hero": "wangzhaojun", "counters": "luban7", "strength": 2, "note": "冰冻大招锁死无位移射手" },
+    { "hero": "wangzhaojun", "counters": "huamulan", "strength": 1, "note": "冰冻惩罚强行突进的刺客" },
+    { "hero": "wangzhaojun", "counters": "hanxin", "strength": 1, "note": "冰冻打断突进连招" },
+    { "hero": "wangzhaojun", "counters": "lubu", "strength": 1, "note": "远程冰冻打断上前节奏" },
+    { "hero": "wangzhaojun", "counters": "daji", "strength": 1, "note": "远程消耗压制近战爆发法师" },
+
+    { "hero": "angela", "counters": "luban7", "strength": 1, "note": "消耗输出压制走位射程劣势" },
+    { "hero": "angela", "counters": "ake", "strength": 1, "note": "沉默打断处决连招" },
+    { "hero": "angela", "counters": "daji", "strength": -1, "note": "近战爆发法师容易先手压制安琪拉" },
+
+    { "hero": "daji", "counters": "shangguanwaner", "strength": 1, "note": "更快的爆发节奏赢下法师对拼" },
+
+    { "hero": "zhugeliang", "counters": "sunbin", "strength": 1, "note": "持续消耗压制低输出辅助" },
+    { "hero": "zhugeliang", "counters": "lubu", "strength": -1, "note": "缺乏位移和保护，容易被持续追击" },
+    { "hero": "zhugeliang", "counters": "shangguanwaner", "strength": -1, "note": "同为脆皮消耗法师，先手处于劣势" },
+
+    { "hero": "sunshangxiang", "counters": "zhugeliang", "strength": 1, "note": "突进爆发压制脆皮消耗法师" },
+    { "hero": "sunshangxiang", "counters": "luban7", "strength": -1, "note": "近战突进对射手来说难以站稳输出位" },
+
+    { "hero": "huangzhong", "counters": "mingshiyin", "strength": 1, "note": "超远射程压制低机动辅助" },
+    { "hero": "huangzhong", "counters": "luban7", "strength": -1, "note": "有效射程接近，后期装备被压制" },
+
+    { "hero": "chengyaojin", "counters": "daji", "strength": 1, "note": "击飞打断脆皮法师起手" },
+
+    { "hero": "mingshiyin", "counters": "hanxin", "strength": 1, "note": "定身打断刺客突进连招" },
+    { "hero": "mingshiyin", "counters": "ake", "strength": 1, "note": "定身打断处决连招" },
+
+    { "hero": "daqiao", "counters": "houyi", "strength": 1, "note": "位移保护解救被风筝的射手" },
+    { "hero": "daqiao", "counters": "ake", "strength": 1, "note": "先手控制打断处决连招" },
+
+    { "hero": "shangguanwaner", "counters": "hanxin", "strength": -1, "note": "缺乏逃生手段，难以躲避突进爆发" },
+    { "hero": "shangguanwaner", "counters": "luna", "strength": 1, "note": "沉默手段克制沉默依赖的刺客连招" },
+
+    { "hero": "luban7", "counters": "huamulan", "strength": -1, "note": "站桩输出缺乏机动性，易被突进秒杀" },
+
+    { "hero": "sunbin", "counters": "hanxin", "strength": -1, "note": "低输出和有限保护难以应对突进爆发" },
+    { "hero": "sunbin", "counters": "caiwenji", "strength": -1, "note": "护盾/减伤量级低于蔡文姬治疗量" },
+
+    { "hero": "caiwenji", "counters": "ake", "strength": -1, "note": "治疗量难以弥补持续处决伤害" },
+    { "hero": "caiwenji", "counters": "daji", "strength": -1, "note": "治疗量难以弥补法师爆发" }
+  ]
+}
