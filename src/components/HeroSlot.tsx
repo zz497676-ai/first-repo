@@ -38,7 +38,7 @@ export function HeroSlot({ heroId, onClick, onClear, size = 'md' }: HeroSlotProp
               e.stopPropagation()
               onClear()
             }}
-            className="absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full bg-gray-800 text-white text-[10px] flex items-center justify-center leading-none cursor-pointer"
+            className="absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full bg-gray-800 text-white text-[10px] flex items-center justify-center leading-none cursor-pointer after:absolute after:-inset-3 after:content-['']"
           >
             ×
           </span>

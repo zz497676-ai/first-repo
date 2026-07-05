@@ -16,7 +16,7 @@ export function DraftBoard() {
         <button
           type="button"
           onClick={resetDraft}
-          className="text-xs px-2 py-1 rounded border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+          className="text-xs px-3 py-3 rounded border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
         >
           重置
         </button>

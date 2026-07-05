@@ -51,7 +51,7 @@ export function HeroPicker() {
           <button
             type="button"
             onClick={() => setActiveSlot(null)}
-            className="text-gray-500 hover:text-gray-800 dark:hover:text-gray-200"
+            className="text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 p-2 -m-2"
           >
             关闭
           </button>
@@ -70,7 +70,7 @@ export function HeroPicker() {
           <button
             type="button"
             onClick={() => setRoleFilter(null)}
-            className={`text-xs px-2 py-1 rounded-full border ${
+            className={`text-xs px-3 py-1.5 rounded-full border ${
               roleFilter === null ? 'bg-blue-600 text-white border-blue-600' : 'border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300'
             }`}
           >
@@ -81,7 +81,7 @@ export function HeroPicker() {
               key={opt.value}
               type="button"
               onClick={() => setRoleFilter(opt.value)}
-              className={`text-xs px-2 py-1 rounded-full border ${
+              className={`text-xs px-3 py-1.5 rounded-full border ${
                 roleFilter === opt.value ? 'bg-blue-600 text-white border-blue-600' : 'border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300'
               }`}
             >
